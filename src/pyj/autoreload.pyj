@@ -6,6 +6,7 @@ MAX_RETRIES = 10
 
 class Watcher:
 
+
     def __init__(self, autoreload_port):
         host = document.location.host.split(':')[0]
         self.url = 'ws://' + host + ':' + autoreload_port
